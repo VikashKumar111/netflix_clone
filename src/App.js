@@ -8,6 +8,12 @@ function App() {
 
       <Row title="NETFLIX ORIGINALS" />
       <Row title="Trending Now" />
+      <Row title="Top Rated" />
+      <Row title="NETFLIX ORIGINALS" />
+      <Row title="Trending Now" />
+      <Row title="Top Rated" />
+      <Row title="NETFLIX ORIGINALS" />
+      <Row title="Trending Now" />
        <Row title="Top Rated"/>
     </div>
   );
