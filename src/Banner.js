@@ -29,7 +29,7 @@ const Banner = () => {
       > 
           <div className='banner__contents'>
               {/* title */}
-              <h1>{movie?.title || movie?.name || movie?.original_name}</h1>
+              <h1 className='banner__title'>{movie?.title || movie?.name || movie?.original_name}</h1>
               {/* div>2 buttons */}
               <div className='banner__buttons'>
                   <button className='banner__button'>PLay</button>
@@ -38,6 +38,8 @@ const Banner = () => {
               {/* description */}
               <h1 className='banner__description'>{movie?.overview}</h1>
           </div>
+
+          <div className='banner__fadeBottom'/>
       </header>
   )
 }
